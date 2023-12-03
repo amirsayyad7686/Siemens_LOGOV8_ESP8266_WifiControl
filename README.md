@@ -38,3 +38,12 @@ For Write registers
 `readCoil,writeCoil (Arduino) => Coil (LOGO)`
 
 `readIreg (Arduino) => Input Register (LOGO)`
+
+
+5- Compile example code on esp8266 and remember to change remote IP address to LOGO IP 
+and here is example for a coil that turing off and on with cycle 2secs
+`const int REG = 8192; //its for Q1`
+`trans = mb.writeCoil(remote, REG, false);//for off`
+`trans = mb.writeCoil(remote, REG, true);//for on`
+and read holding register that we defined before in LOGO for timer value
+`trans = mb.readHreg(remote, 0, &Timer); // 0 is register address`
