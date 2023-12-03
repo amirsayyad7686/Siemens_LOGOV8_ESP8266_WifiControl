@@ -26,7 +26,12 @@ For Reading registers
 For Write registers
 ![4](https://github.com/amirsayyad7686/Siemens_LOGOV8_ESP8266_WifiControl/assets/78236642/1a5d3928-f597-4ed2-b545-e6f433340492)
 
-readIsts (Arduino) => Discrete Input (LOGO)
-readHreg,writeHreg (Arduino) => Holding Register (LOGO)
-readCoil (Arduino) => Coil (LOGO)
-readIreg (Arduino) => Input Register (LOGO)
+
+
+`readIsts (Arduino) => Discrete Input (LOGO)`
+
+`readHreg,writeHreg (Arduino) => Holding Register (LOGO)`
+
+`readCoil,writeCoil (Arduino) => Coil (LOGO)`
+
+`readIreg (Arduino) => Input Register (LOGO)`
