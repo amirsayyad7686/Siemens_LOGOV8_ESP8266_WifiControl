@@ -27,6 +27,9 @@ For Write registers
 ![4](https://github.com/amirsayyad7686/Siemens_LOGOV8_ESP8266_WifiControl/assets/78236642/1a5d3928-f597-4ed2-b545-e6f433340492)
 
 
+> [!IMPORTANT]
+> Attention to R/W registers 
+> Only Coil and Holding Register are able to write
 
 `readIsts (Arduino) => Discrete Input (LOGO)`
 
