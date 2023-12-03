@@ -54,6 +54,6 @@ and read holding register that we defined before in LOGO for timer value
 `trans = mb.readHreg(remote, 0, &Timer); // 0 is register address`
 
 
-> [!NOTICE]
+> [!IMPORTANT]
 > Esp library is attached
 
